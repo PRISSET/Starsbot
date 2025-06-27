@@ -26,7 +26,7 @@ CHANNEL_INVITE_LINK = os.getenv("CHANNEL_INVITE_LINK", "")  # Пригласит
 
 # Цены подписок (в звездах Telegram)
 SUBSCRIPTION_PRICES = {
-    "1_month": 1,     # 1 месяц - 1 звезда (тестовая цена)
+    "1_month": 100,   # 1 месяц - 100 звезд
     "3_months": 250,  # 3 месяца - 250 звезд
     "6_months": 450,  # 6 месяцев - 450 звезд
     "12_months": 800  # 12 месяцев - 800 звезд
